@@ -1,6 +1,6 @@
-pragma solidity ^0.5.1;
+pragma solidity ^0.4.24;
 
-import "openzeppelin-solidity/contracts/token/StandardToken.sol";
+import 'zeppelin-solidity/contracts/token/ERC20/StandardToken.sol';
 
 contract JOToken is StandardToken {
     string public name = "JOToken";
